@@ -5,7 +5,6 @@ services:
     env: static
     rootDir: client
     buildCommand: npm build
-    staticPublishPath: ./build
     pullRequestPreviewsEnabled: true # optional
     envVars:
       - key: REACT_APP_API_URL
