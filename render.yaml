@@ -7,7 +7,6 @@ services:
     buildCommand: npm build
     staticPublishPath: ./build
     pullRequestPreviewsEnabled: true # optional
-    plan: free
     envVars:
       - key: REACT_APP_API_URL
         fromService:
